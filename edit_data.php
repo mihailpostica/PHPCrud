@@ -21,7 +21,7 @@ if(isset($_POST['btn-update']))
 	$_SESSION['message'] = '
 		<div class="alert alert-info alert-dismissible">
 		    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-		    <strong>Success!</strong> '.$first_name.' '.$last_name.' from <i>'.$city_name.'</i> updated to database!
+		    <strong>Success!</strong> '.$first_name.' '.$last_name.' from <i>'.$city_name.'</i> was updated!
 		</div>
 	';
 	
@@ -31,7 +31,6 @@ if(isset($_POST['btn-update']))
 	{
 		?>
 		<script type="text/javascript">
-		alert('Data Are Updated Successfully');
 		window.location.href='index.php';
 		</script>
 		<?php

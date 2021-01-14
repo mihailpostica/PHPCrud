@@ -23,7 +23,6 @@ if(isset($_POST['btn-save']))
 	{
 		?>
 		<script type="text/javascript">
-		alert('Data Are Inserted Successfully ');
 		window.location.href='index.php';
 		</script>
 		<?php
